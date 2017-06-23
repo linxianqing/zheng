@@ -11,7 +11,7 @@ public class Producer {
 
 	public static void main(String[] args) {
 		DefaultMQProducer producer = new DefaultMQProducer("Producer");
-		producer.setNamesrvAddr("127.0.0.1:9876");
+		producer.setNamesrvAddr("10.147.227.57:9876");
 		try {
 			producer.start();
 			long time = System.currentTimeMillis();

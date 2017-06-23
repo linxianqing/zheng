@@ -126,10 +126,11 @@ public class AESUtil {
         //如果有错就返加nulll
         return null;
     }
-
+//wf1GGDEdzE1eaaMEUev4Cw==
     public static void main(String[] args) {
         String[] keys = {
-                "", "123456"
+//                "", "123456"
+                "root"
         };
         System.out.println("key | AESEncode | AESDecode");
         for (String key : keys) {
